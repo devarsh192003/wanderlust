@@ -1,13 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Pages from "./components/pages/Pages"
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import About from './pages/about';
+import Destinations from './pages/Destinations';
 
+import Packages from './pages/Packages';
+import Blogs from './pages/blogs';
+import SignUp from './pages/signup';
+  
 function App() {
   return (
-    <div className="App">
-      <Pages/>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        
+        <Route path='/packages' element={<Packages/>} />
+        <Route path='/destinations' element={<Destinations/>} />
+        <Route path='/blogs' element={<Blogs/>} />
+        <Route path='/sign-up' element={<SignUp/>} />
+      </Routes>
+    </Router>
   );
 }
-
+  
 export default App;
