@@ -105,3 +105,15 @@ export const list = [
       cover: "./images/location/city-6.png",
     },
   ]
+  export const footer = [
+    {
+      title: "LAYOUTS",
+      text: [{ list: "Home" }, { list: "About" }, { list: "Destinations" }, { list: "Packages" }, { list:  "Blogs" }],
+    },
+    
+    {
+      title: "COMPANY",
+      text: [{ list: "About" }, { list: "Blog" }, { list: "Destinations" }, { list: "Packages" }, { list: "Login" }, { list: "Changelog" }],
+    },
+  ]
+  
