@@ -1,6 +1,7 @@
 import React from "react"
 import { list } from "../Data"
 
+
 const PackageCard = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const PackageCard = () => {
               <div className='text'>
                 <div className='category flex'>
                   <span style={{ background: category === "Group Tour" ? "#25b5791a" : "#ff98001a", color: category === "Customized Tour" ? "#25b579" : "#ff9800" }}>{category}</span>
-                  <i className='fa fa-heart'></i>
+                  <i class="fa-duotone fa-heart fa-beat-fade"></i>
                 </div>
                 <h4>{name}</h4>
                 <p>

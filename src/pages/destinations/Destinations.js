@@ -17,7 +17,7 @@ const Destinations = () => {
                   <h5>{item.name}</h5>
                   <p>
                     <label>{item.Villas}</label>
-                    <label>{item.Offices}</label>
+                    <label>{item.Hotels}</label>
                     <label>{item.Apartments}</label>
                   </p>
                 </div>

@@ -27,12 +27,13 @@ return (
 		<NavLink to='/blogs' activeStyle>
 			Blogs
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
-			Sign Up
-		</NavLink>
+		
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
+		<NavBtn>
+			<NavBtnLink to='/sign-up' >Sign Up</NavBtnLink>
+		</NavBtn>
 		<NavBtn>
 		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
 		</NavBtn>

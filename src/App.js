@@ -7,7 +7,7 @@ import About from './pages/about';
 import Destinations from './pages/destinations/Destinations';
 import Footer from './components/footer/Footer';
 import Packages from './pages/packages/Packages';
-import Blogs from './pages/blogs';
+import Blogpage from './pages/blogfolder/Blogpage';
 import SignUp from './pages/signup';
   
 function App() {
@@ -20,7 +20,7 @@ function App() {
         
         <Route path='/packages' element={<Packages/>} />
         <Route path='/destinations' element={<Destinations/>} />
-        <Route path='/blogs' element={<Blogs/>} />
+        <Route path='/blogs' element={<Blogpage/>} />
         <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
       <Footer />
